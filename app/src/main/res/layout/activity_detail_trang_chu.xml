@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailTrangChu">
+
+    <ImageView
+        android:id="@+id/img_detail"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_marginHorizontal="36dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tv_ten_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="36dp"
+        android:layout_marginTop="330dp"
+        android:text="Điện thoại"
+        android:textColor="#000"
+        android:textSize="19sp"/>
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="360dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_star"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_star"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_star"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_star"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_star"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_gia_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="36dp"
+        android:text="20.000.000đ"
+        android:textSize="14sp"
+        android:textColor="#000"
+        android:layout_marginTop="400dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginHorizontal="32dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:text="Nhập Địa chỉ giao hàng"
+                android:textColor="#000"
+                android:textSize="19sp"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="16dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:textSize="16sp"
+            android:text="Bạn hãy NHẬP ĐỊA CHỈ nhận hàng để được dự báo thời gian và chi phí giao hàng một cách chính xác nhất"
+            android:textColor="#000"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/bt_tragop"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:text="Trả góp"
+            android:textColor="#000"
+            android:backgroundTint="#fff"/>
+
+        <Button
+            android:id="@+id/btn_mua"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="220dp"
+            android:text="Mua ngay"
+            android:textColor="#000"
+            android:backgroundTint="#f43b47"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

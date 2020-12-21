@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "827857174754",
+    "project_id": "ltdd120nhom6",
+    "storage_bucket": "ltdd120nhom6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827857174754:android:255276a02583f81904debb",
+        "android_client_info": {
+          "package_name": "com.example.tiki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827857174754-6kthu7mi4u89u290bodi93lvfctn65md.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMEo47kjj3QLSgtLI7veTTRBjVFJcwPmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827857174754-6kthu7mi4u89u290bodi93lvfctn65md.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

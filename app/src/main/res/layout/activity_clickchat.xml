@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activityRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Clickchat.Clickchat">
+
+  <RelativeLayout
+      android:id="@+id/layout_top"
+      android:layout_width="match_parent"
+      android:layout_height="80dp"
+      android:background="@android:color/white">
+    <ImageView
+        android:id="@+id/dong"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/ic_dongchat"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Chat"
+        android:textSize="25sp"
+        android:textColor="@android:color/darker_gray"/>
+  </RelativeLayout>
+  <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/rcv_message"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_below="@+id/layout_top"
+      android:padding="10dp"
+      android:layout_margin="10dp"
+      android:layout_above="@+id/layout_center"/>
+
+  <LinearLayout
+      android:id="@+id/layout_center"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_margin="10dp"
+      android:padding="5dp"
+      android:layout_above="@+id/layout_bottom"
+      android:layout_marginLeft="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Để giao dịch an toàn, hãy luôn chat và thanh toán thông qua website hoặc ứng dụng tiki.Mọi thông tin sau khi mua hàng vui lòng liên hệ TIKI Care: "/>
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="http://hotro.tiki.vn"
+      android:layout_marginLeft="5dp"
+      android:textColor="@android:color/holo_blue_dark"/>
+  </LinearLayout>
+
+  <RelativeLayout
+      android:id="@+id/layout_bottom"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:padding="10dp">
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_img"/>
+
+    <EditText
+        android:id="@+id/edt_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_centerVertical="true"
+        android:textColor="@android:color/black"
+        android:hint="Nhập Tin Nhắn Của Bạn..."/>
+
+    <ImageView
+        android:id="@+id/img_send"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_send"/>
+
+  </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".KhamPhaFragment"
+    android:background="#E4E3E3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_marginBottom="-3dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    app:cardCornerRadius="50dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/hinh1" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:text="HTMART HCM"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="90dp"
+                    android:background="@drawable/botron_button"
+                    android:text="theo dõi"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:padding="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:drawableLeft="@drawable/ic_star"
+                    android:text="Bảo quản chân không thực phẩm gia đình"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:padding="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:drawableLeft="@drawable/ic_touch"
+                    android:text="Tăng thời gian bảo quản lên gấp 5 lần"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:padding="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:drawableLeft="@drawable/ic_like"
+                    android:text="Máy hút chân không thực phẩm gia đình........"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:textStyle="normal" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="311dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/hinh4" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:src="@drawable/cmt" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="93dp"
+                    android:src="@drawable/giamgia1" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="2dp"
+                android:text="Gợi ý theo dõi bạn"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="#E4E3E3"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:padding="10dp"
+                        android:layout_width="120dp"
+                        android:background="@color/white"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginBottom="5dp"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/a1" />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Ticketbox"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:padding="10dp"
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@color/white"
+                        android:layout_marginLeft="10dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginBottom="5dp"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/a5" />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Tiki Official"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:padding="10dp"
+                        android:layout_width="120dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@color/white"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginBottom="5dp"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/a4" />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Tiki Trading"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:padding="10dp"
+                        android:layout_width="120dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@color/white"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginBottom="5dp"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/a2" />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Nhà sách Fahasha"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:padding="10dp"
+                        android:layout_width="120dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@color/white"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginBottom="5dp"
+                            app:cardCornerRadius="50dp">
+
+                            <ImageView
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/a3" />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="HTMART HCM"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_marginBottom="-5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="5dp"
+                        app:cardCornerRadius="50dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/hinh3" />
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="HTMART HCM"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="90dp"
+                        android:background="@drawable/botron_button"
+                        android:text="theo dõi"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="562dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:drawableLeft="@drawable/ic_star"
+                        android:text="PANAX ROYAL"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:drawableLeft="@drawable/ic_touch"
+                        android:text="Đẩy lùi dịch bệnh"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:drawableLeft="@drawable/ic_like"
+                        android:text="tăng cường sức đề kháng...."
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:textStyle="normal" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="311dp"
+                        android:layout_marginBottom="10dp"
+                        android:src="@drawable/hinh5" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:src="@drawable/cmt" />
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="400dp"
+                                android:layout_height="95dp">
+
+                                <ImageView
+                                    android:layout_width="380dp"
+                                    android:layout_height="90dp"
+                                    android:src="@drawable/giamgia1" />
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="400dp"
+                                android:layout_height="95dp">
+
+                                <ImageView
+                                    android:layout_width="380dp"
+                                    android:layout_height="90dp"
+                                    android:src="@drawable/giamgia2" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="400dp"
+                                android:layout_height="95dp">
+
+                                <ImageView
+                                    android:layout_width="380dp"
+                                    android:layout_height="90dp"
+                                    android:src="@drawable/giamgia3" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_marginBottom="-5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="5dp"
+                        app:cardCornerRadius="50dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/hinh2" />
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="HTMART HCM"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="90dp"
+                        android:background="@drawable/botron_button"
+                        android:text="theo dõi"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:drawableLeft="@drawable/ic_star"
+                        android:text="jAN'S FARMMADES TẠI DIỄN ĐÀN MỚI SÁNG TẠO - VIỆT NAM ACTNOVATION FORUM-  ĐẠI HỌC NGOẠI THƯƠNG, HÀ NỘI"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:drawableLeft="@drawable/ic_touch"
+                        android:text="VAF là dì.........."
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:textStyle="normal" />
+
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="311dp"
+                        android:layout_marginBottom="10dp"
+                        android:src="@drawable/hinh6" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:src="@drawable/cmt" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_marginBottom="-5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="5dp"
+                        app:cardCornerRadius="50dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/tiki" />
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="HTMART HCM"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="90dp"
+                        android:background="@drawable/botron_button"
+                        android:text="theo dõi"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:drawableLeft="@drawable/ic_star"
+                        android:text="Bảo quản chân không thực phẩm gia đình"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:drawableLeft="@drawable/ic_touch"
+                        android:text="Tăng thời gian bảo quản lên gấp 5 lần"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:drawableLeft="@drawable/ic_like"
+                        android:text="Máy hút chân không thực phẩm gia đình........"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:textStyle="normal" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="311dp"
+                        android:layout_marginBottom="10dp"
+                        android:src="@drawable/hinh7" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:src="@drawable/cmt" />
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="400dp"
+                                android:layout_height="95dp">
+
+                                <ImageView
+                                    android:layout_width="380dp"
+                                    android:layout_height="90dp"
+                                    android:src="@drawable/giamgia1" />
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="400dp"
+                                android:layout_height="95dp">
+
+                                <ImageView
+                                    android:layout_width="380dp"
+                                    android:layout_height="90dp"
+                                    android:src="@drawable/giamgia2" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="400dp"
+                                android:layout_height="95dp">
+
+                                <ImageView
+                                    android:layout_width="380dp"
+                                    android:layout_height="90dp"
+                                    android:src="@drawable/giamgia3" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_marginBottom="-5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="5dp"
+                        app:cardCornerRadius="50dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/tiki" />
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="HTMART HCM"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="90dp"
+                        android:background="@drawable/botron_button"
+                        android:text="theo dõi"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="7dp"
+                        android:text="ví cầm tay nữ yuumy yv26 gây ấn tượng bởi sự sang trọng, thanh lịch và có chút hoài cổ, cùng với nét giao thoa giữa cổ điển và hiện đại trong thiết kế sẽ mang lại cho bạn điểm nhấn đầy ấn tượng..................."
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:padding="7dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:drawableLeft="@drawable/b3"
+                        android:text=" Mua ngay: http://bit.ly/3oXBLCK"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:padding="7dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:drawableLeft="@drawable/b2"
+                        android:text=" hotline: 0973384798"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:textStyle="normal" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="311dp"
+                        android:layout_marginBottom="10dp"
+                        android:src="@drawable/hinh8" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:src="@drawable/cmt" />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="93dp"
+                        android:src="@drawable/giamgia3" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_marginBottom="-5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="5dp"
+                        app:cardCornerRadius="50dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/tiki" />
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="HTMART HCM"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="90dp"
+                        android:background="@drawable/botron_button"
+                        android:text="theo dõi"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:drawableLeft="@drawable/b1"
+                        android:text="Bảo quản chân không thực phẩm gia đình"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:drawableLeft="@drawable/b1"
+                        android:text="Tăng thời gian bảo quản lên gấp 5 lần"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:drawableLeft="@drawable/b1"
+                        android:text="Máy hút chân không thực phẩm gia đình........"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:textStyle="normal" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="311dp"
+                        android:layout_marginBottom="10dp"
+                        android:src="@drawable/hinh9" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:src="@drawable/cmt" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="93dp"
+                        android:src="@drawable/giamgia1" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

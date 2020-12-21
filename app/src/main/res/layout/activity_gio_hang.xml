@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".giohang.GioHang">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@android:color/holo_blue_light">
+        <ImageView
+            android:id="@+id/dong"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_dong"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Giỏ Hàng"
+            android:textSize="25sp"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="15dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="131dp"
+            android:layout_marginEnd="130dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/tikishop" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bạn Chưa Có Sản Phẩm Nào Trong Giỏ Hàng"
+            android:layout_marginVertical="25dp"
+            android:layout_marginHorizontal="55dp"/>
+        <Button
+            android:id="@+id/bt_muasam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TIẾP TỤC MUA SẮM"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/buttom_chat"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sản Phẩm Bạn Quan Tâm"
+            android:textColor="@android:color/black"
+            android:layout_marginVertical="25dp"
+            android:layout_marginHorizontal="15dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/recyclerview_giohang"
+                android:layout_marginTop="20dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".giohang.Clickgiohang">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/img_anhmau_giohang"
+        android:src="@drawable/ic_anhmau"/>
+    
+    <TextView
+        android:id="@+id/tv_tsp_giohang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sản Phẩm"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/tv_gia_giohang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="500.000VNĐ"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+    <ImageView
+        android:id="@+id/img_trove_giohang"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_trove"/>
+
+</LinearLayout>
